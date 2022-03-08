@@ -1,0 +1,81 @@
+body {
+    color: blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 33vw; */
+    position: absolute;
+    left: 37vw;
+    right: 0;
+    top: 25vh;
+    bottom: 0;
+}
+
+.square { 
+    height: 200px;
+    width: 200px;
+    border: solid blanchedalmond 1px;
+    cursor: crosshair;
+}
+
+.mole {
+    background-color:;
+    background-image: url("images/Skye_icon.png");
+    background-size: cover;
+}
+#score{
+    text-align: center;
+    top: 5vh;
+    left: 50vw;
+    position: absolute;
+    
+}
+.score-box {
+    text-align: center;
+    top: 2vh;
+    left: 50vw;
+    position: absolute;
+}
+
+#time-left{
+    text-align: center;
+    top: 11vh;
+    left: 50vw;
+    position: absolute;
+    
+}
+.time-left {
+    text-align: center;
+    top: 8vh;
+    left: 50vw;
+    position: absolute;
+}
+
+
+
+/* .score-box {
+    width: 80px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    margin-left: 47.2vw;
+
+} */
+
+#video-background { 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
